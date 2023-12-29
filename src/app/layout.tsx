@@ -1,9 +1,18 @@
+// "use client";
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import SideMenu from "./components/SideMenu";
 import { BsGithub } from "react-icons/bs";
 import Link from "next/link";
+import Head from "next/head";
+
+// import { useEffect } from "react";
+// import { once } from "events";
+// import Aos from "aos";
+
+// AOS.init();
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,8 +26,22 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+
+  // useEffect(()=>{
+  //   // Aos.init()
+  //   AOS.init({
+  //     easing :"ease-in-out",
+  //     once : true,
+  //     offset : 50,
+  //   })
+  // } , [])
   return (
     <html lang="en">
+      {/* <Head>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>{AOS.init()}</script>
+      </Head> */}
       <body>
         <nav className="bg-transparent p-5 px-10 pt-8 absolute left-0 right-0 flex justify-between">
           {/* <p className='text-white'>Squig</p> */}

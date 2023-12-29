@@ -21,7 +21,6 @@ export default function Hero() {
       <div className="grid justify-center items-center h-screen">
         <div className="fade-up">
           <div
-            data-aos="fade-down"
             className="grid justify-center items-center"
           >
             <Image
@@ -32,8 +31,6 @@ export default function Hero() {
           </div>
           <div className="flex justify-center my-5">
             <p
-              data-aos="fade-up"
-              data-aos-duration="700"
               className="text-white text-8xl md:text-9xl "
             >
               <span>S</span>
@@ -44,8 +41,6 @@ export default function Hero() {
             </p>
           </div>
           <div
-            data-aos="fade-left"
-            data-aos-duration="1200"
             className="flex justify-center m-5"
           >
             <p className="text-center w-[22rem] text-sm">
@@ -54,8 +49,6 @@ export default function Hero() {
             </p>
           </div>
           <div
-            data-aos="fade-right"
-            data-aos-duration="1500"
             className="flex justify-center mx-5 h-20 mt-10"
           >
             <DownloadAlert />
@@ -71,15 +64,13 @@ export default function Hero() {
       </div>
       <div className="h-screen md:mb-0">
         <div
-          data-aos="fade-right"
-          data-aos-duration="700"
           className="flex justify-center"
         >
           <p className="text-white text-3xl md:text-5xl my-10">About</p>
         </div>
-        <div data-aos="fade-left" data-aos-duration="700" className="flex flex-col">
+        <div  className="flex flex-col">
           <p className="p-5 md:text-2xl  tracking-wide md:text-justify max-md:hidden">
-            Introducing Squig, a contemporary and user-friendly programming
+           {` Introducing Squig, a contemporary and user-friendly programming
             language designed for effortless learning and efficient coding
             experiences. Drawing inspiration from Python, Squig's syntax
             emphasizes clarity and user-friendliness, catering to both novices
@@ -95,10 +86,10 @@ export default function Hero() {
             into the limitless possibilities that Squig offers for your coding
             endeavors. Immerse yourself in the joy of coding with Squig – where
             the convergence of modernity and simplicity transforms programming
-            into an accessible and enjoyable art form. Happy coding!
+            into an accessible and enjoyable art form. Happy coding!`}
           </p>
           <p className="p-5 md:text-2xl  tracking-wide md:text-justify md:hidden">
-            Introducing Squig, a user-friendly programming language with a
+           {` Introducing Squig, a user-friendly programming language with a
             Python-inspired syntax for easy learning and efficient coding.
             Seamlessly implemented in Python 3, Squig offers simplicity and
             versatility, making it ideal for both beginners and seasoned
@@ -106,11 +97,11 @@ export default function Hero() {
             expanding your toolkit. Squig encourages interactive development,
             promoting rapid prototyping. Join the dynamic Squig community on
             GitHub for endless possibilities. Experience joy in coding with
-            Squig – where modernity meets simplicity. Happy coding!
+            Squig – where modernity meets simplicity. Happy coding!`}
           </p>
           <p className="text-gray-400 md:text-2xl tracking-wide px-4">
-              For the past two years , we have been working diligently on squig
-              , and we have finally launched it for public use.
+              {`For the past two years , we have been working diligently on squig
+              , and we have finally launched it for public use.`}
               {/* As of now, Squig has been downloaded by <span className='text-blue-500'>#{downloadUnit(downloade)} users.</span><br/><br/> */}
               <span className="block text-red-500">
                 Since we are in <span className="text-blue-500">#ALPHA</span>{" "}

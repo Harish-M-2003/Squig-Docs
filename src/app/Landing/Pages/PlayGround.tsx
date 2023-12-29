@@ -113,13 +113,13 @@ export default function Playground() {
   const [showOutput, setShowOutput] = useState(false);
   
 
-  const handleCodeChange = (e) => {
+  const handleCodeChange = (e:string) => {
     setCode(e);
   };
 
-  const handleRunCode = (e) => {
+  const handleRunCode = () => {
     // Implement your logic here to run the code
-    e.preventDefault();
+    // e.preventDefault();
     // console.log(code)
     fetch("https://harishm2003.pythonanywhere.com/playground", {
       // fetch("http://localhost:5000/playground", {
@@ -163,7 +163,7 @@ export default function Playground() {
     //     fontSize: 12,
     //   }}
     // />
-    <div data-aos="fade-right" data-aos-duration="1500">
+    <div >
       <h2 className="text-white mx-5 text-2xl pb-10">
         <span className="text-blue-500">#</span>Playground:
       </h2>
