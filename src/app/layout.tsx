@@ -43,11 +43,11 @@ export default function RootLayout({
         <script>{AOS.init()}</script>
       </Head> */}
       <body>
-        <nav className="bg-transparent p-5 md:px-10 px-5 pt-8 absolute left-0 right-0 flex justify-between">
+        <nav className="bg-transparent p-5 md:px-10 px-5 md:pt-8 pt-4 absolute left-0 right-0 flex justify-between">
           {/* <p className='text-white'>Squig</p> */}
           <SideMenu />
           <Link href={"https://github.com/Harish-M-2003/Squig"} target="_blank">
-            <BsGithub className={"text-4xl text-gray-400"} />
+            <BsGithub className={"md:text-4xl text-2xl text-gray-400"} />
           </Link>
         </nav>
         {children}

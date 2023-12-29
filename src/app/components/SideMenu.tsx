@@ -12,7 +12,7 @@ export default function SideMenu() {
   return (
     <Sheet>
       <SheetTrigger>
-        <GiHamburgerMenu className={"text-4xl"} />
+        <GiHamburgerMenu className={"md:text-4xl text-2xl"} />
       </SheetTrigger>
       <SheetContent side={"left"} className="bg-gray-900 p-0 border-0">
         <SheetHeader className="p-4 hover:bg-gray-800">
