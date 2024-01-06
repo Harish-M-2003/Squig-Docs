@@ -3,7 +3,7 @@ import TextSection from "./Components/TextSection";
 
 export default function DataTypeSection() {
   return (
-    <div className="my-5 md:pl-5 mr-5 text-xl text-xl">
+    <div className="my-5 md:pl-5 mr-5 text-lg md:text-xl">
       <h1 className="text-2xl pt-20">
         <span className="text-blue-400">#</span>Data Types
       </h1>

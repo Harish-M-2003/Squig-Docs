@@ -2,7 +2,7 @@ import TextSection from "./Components/TextSection";
 
 export default function LogStatement() {
   return (
-    <div className="my-5 md:pl-5 mr-5 text-xl">
+    <div className="my-5 md:pl-5 mr-5 text-lg md:text-xl">
 
       <h1>Print Statement</h1>
 
