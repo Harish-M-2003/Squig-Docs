@@ -40,9 +40,9 @@ export default function DownloadAlert() {
             Squig!
           </AlertDialogDescription>
         </AlertDialogHeader>
-        <AlertDialogFooter>
-          <AlertDialogCancel className="text-white border-0 bg-transparent">Cancel</AlertDialogCancel>
-          <AlertDialogAction className={"hover:scale-110 active:scale-100 items-center cursor-pointer hover:bg-gradient-to-tr from-blue-400 to-blue-700 text-white p-4 px-6 md:px-10 rounded-lg text-clip"}>Download</AlertDialogAction>
+        <AlertDialogFooter className="gap-5">
+          <AlertDialogCancel className="text-black border-0 bg-white">Cancel</AlertDialogCancel>
+          <AlertDialogAction className={"active:scale-100 items-center cursor-pointer bg-gradient-to-tr from-blue-400 to-blue-700 text-white p-4 px-6 md:px-10 rounded-lg"}>Okay</AlertDialogAction>
         </AlertDialogFooter>
       </AlertDialogContent>
     </AlertDialog>
